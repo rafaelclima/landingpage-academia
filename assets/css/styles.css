@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Outline&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+
+  --ff-primary: 'Bebas Neue', sans-serif;
+  --ff-secondary: 'Montserrat', sans-serif;
+  --ff-outline: 'Bungee Outline', cursive;
+
+  --bg-color: #A03333;
+  --bg-secondary-color: #FF0202;
+  --bg-tertiary-color: #1E1E1E;
+  --primary-text-color: #FFFFFF;
+  --secondary-text-color: #222222;
+  --tertiary-text-color: #787878;
+
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
