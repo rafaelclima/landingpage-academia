@@ -19,10 +19,140 @@
 
 }
 
-:root {
-  font-size: 62.5%;
+.my-body {
+  background-color: var(--bg-color);
 }
 
-body {
-  font-size: 1.6rem;
+.my-navbar {
+  margin-right: 80px;
+}
+
+.navbar-nav a {
+  color: var(--primary-text-color);
+  font-family: var(--ff-primary);
+  font-size: 24px;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+#registro {
+  position: relative;
+  margin-right: 0px;
+}
+
+#registro svg {
+  width: 152px;
+  height: 44px;
+}
+
+#registro a {
+  position: absolute;
+  top: -2px;
+  left: 18px;
+}
+
+#logo {
+  width: 101px;
+  height: 60px;
+  margin: 15px auto 15px 80px;
+}
+
+#hero {
+  margin-left: 80px;
+}
+
+#hero-title {
+  flex: 0 0 0%;
+  margin-top: 98px;
+}
+
+#hero-title span {
+  color: var(--primary-text-color);
+  font-family: var(--ff-outline);
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#hero-title h1 {
+  color: var(--primary-text-color);
+  font-family: var(--ff-primary);
+  font-size: 102px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#hero-title p {
+  width: 690px;
+  color: var(--primary-text-color);
+  font-family: var(--ff-secondary);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#hero-title .start {
+  margin-top: 28px;
+  position: relative;
+}
+
+#hero-title .start>svg:first-child {
+  width: 187px;
+  height: 54px;
+}
+
+#hero-title .start a {
+  color: var(--primary-text-color);
+  font-family: var(--ff-primary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+
+  position: absolute;
+  top: 7px;
+  left: 22px;
+}
+
+#hero-title .start a>svg {
+  margin-left: 15px;
+}
+
+#hero-img {
+  flex: 0 0 0%;
+  margin: 0 auto;
+}
+
+#hero-img img {
+  width: 477px;
+  height: 627px;
+}
+
+.extras {
+  height: max-content;
+  background-color: var(--secondary-text-color);
+  color: var(--primary-text-color);
+  font-family: var(--ff-primary);
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.extras p {
+  font-size: 32px;
+  margin: 0;
+}
+
+.extras span {
+  margin: 0px 45px;
 }
