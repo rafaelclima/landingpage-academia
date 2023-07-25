@@ -60,7 +60,7 @@
 }
 
 #hero {
-  margin-left: 80px;
+  padding: 0px 80px;
 }
 
 #hero-title {
@@ -197,7 +197,7 @@
 }
 
 #diferenciais .cards-diferenciais {
-  width: 320px;
+  /* width: 320px; */
   height: 346px;
   margin: 0 auto;
   padding: 24px;
@@ -545,8 +545,8 @@
   font-weight: 400;
   line-height: normal;
   color: var(--primary-text-color);
-  background-color: var(--bg-secondary-color);
-  padding: 6px;
+  background-color: var(--bg-color);
+  padding: 5px 8px;
 }
 
 .input-telefone input:focus+label,
@@ -559,8 +559,8 @@
   font-weight: 400;
   line-height: normal;
   color: var(--primary-text-color);
-  background-color: var(--bg-secondary-color);
-  padding: 6px;
+  background-color: var(--bg-color);
+  padding: 5px 8px;
 }
 
 .contato-texto button {
@@ -573,4 +573,403 @@
   position: absolute;
   top: -150px;
   left: 65%;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1370px) {
+
+  /* HERO TITULO / IMG */
+  #hero {
+    padding: 0px 40px;
+  }
+
+  #hero-title span {
+    font-size: 64px;
+  }
+
+  #hero-title h1 {
+    font-size: 80px;
+  }
+
+  #hero-title p {
+    width: 550px;
+    font-size: 16px;
+  }
+
+  #hero-title .start>svg:first-child {
+    width: 177px;
+    height: 44px;
+  }
+
+  #hero-title .start a {
+    font-size: 22px;
+  }
+
+  #hero-img img {
+    width: 417px;
+    height: 567px;
+  }
+
+  /* EXTRAS */
+
+  .extras p {
+    font-size: 24px;
+  }
+
+  .extras span {
+    margin: 0px 30px;
+  }
+
+  /* DIFERENCIAIS */
+
+  #diferenciais {
+    padding: 0 40px;
+    margin: 110px auto;
+  }
+
+  #diferenciais h2 {
+    margin: 0 auto 60px auto;
+    font-size: 68px;
+  }
+
+  #diferenciais h2>span {
+    font-size: 54px;
+    margin-right: 0px;
+  }
+
+  #diferenciais .cards-diferenciais {
+    /* width: 290px; */
+    height: 316px;
+    padding: 20px;
+  }
+
+  #diferenciais .cards-diferenciais>img {
+    width: 62px;
+    height: 62px;
+  }
+
+  #diferenciais .cards-diferenciais h3 {
+    font-size: 24px;
+  }
+
+  #diferenciais .cards-diferenciais p {
+    width: 260px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .svg-btn {
+    width: 177px;
+    height: 44px;
+    margin-left: -14px;
+  }
+
+  .btn-diferenciais a {
+    font-size: 14px;
+  }
+
+  .svg-icon {
+    width: 20px;
+    height: 24px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(155%, -50%);
+  }
+
+  /* PLANOS */
+
+  #planos h2 {
+    padding-top: 60px;
+    margin: 0 auto 60px auto;
+    font-size: 72px;
+  }
+
+  #cards-plano {
+    padding: 0 40px 60px 40px;
+  }
+
+  #cards-plano .card-plano {
+    width: 380px;
+    height: 302px;
+  }
+
+  .bg-image,
+  .bg-image-2,
+  .bg-image-3 {
+    height: 148px;
+  }
+
+  .passe {
+    height: 48px;
+  }
+
+  .passe h3 {
+    font-size: 34px;
+  }
+
+  .btn-selecionar p {
+    font-size: 22px;
+  }
+
+}
+
+@media only screen and (max-width: 1280px) {
+  /* PLANOS */
+
+  #planos h2 {
+    padding-top: 80px;
+    margin: 0 auto 80px auto;
+    font-size: 62px;
+  }
+
+  #cards-plano {
+    padding: 0px 30px;
+  }
+
+  #cards-plano .card-plano {
+    width: 360px;
+    height: 282px;
+  }
+
+  .bg-image,
+  .bg-image-2,
+  .bg-image-3 {
+    height: 128px;
+  }
+
+  .passe {
+    height: 40px;
+  }
+
+  .passe h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  /* DIFERENCIAIS */
+
+  #diferenciais {
+    margin: 100px auto;
+  }
+
+  #diferenciais .cards-diferenciais {
+    /* width: 270px; */
+    height: 296px;
+    padding: 16px;
+  }
+
+  #diferenciais .cards-diferenciais>img {
+    width: 52px;
+    height: 52px;
+  }
+
+  #diferenciais .cards-diferenciais h3 {
+    font-size: 20px;
+  }
+
+  #diferenciais .cards-diferenciais p {
+    width: 250px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .svg-btn {
+    width: 160px;
+    height: 48px;
+    margin-left: 0px;
+  }
+
+  .btn-diferenciais a {
+    font-size: 14px;
+  }
+
+  .svg-icon {
+    width: 22px;
+    height: 20px;
+  }
+
+  /* FAÇA PARTE */
+
+  .faca-parte {
+    padding: 0 40px;
+  }
+
+  .faca-parte img {
+    width: 414px;
+    height: 542px;
+  }
+
+  .titulo-desc span {
+    font-size: 54px;
+  }
+
+  .titulo-desc h2 {
+    font-size: 64px;
+  }
+
+  .info {
+    margin-top: 40px;
+    gap: 0px;
+  }
+
+  .info span {
+    font-size: 54px;
+  }
+
+  .info p {
+    max-width: 80%;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /* PLANOS */
+
+  #planos h2 {
+    padding-top: 60px;
+    margin: 0 auto 80px auto;
+  }
+
+  #cards-plano .card-plano {
+    width: 320px;
+    height: 242px;
+  }
+
+  .bg-image,
+  .bg-image-2,
+  .bg-image-3 {
+    height: 98px;
+  }
+
+  .passe {
+    height: 34px;
+  }
+
+  .passe h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  /* HERO TITULO / IMG */
+
+  #hero-title span {
+    font-size: 56px;
+  }
+
+  #hero-title h1 {
+    font-size: 72px;
+  }
+
+  #hero-title p {
+    width: 510px;
+    line-height: 24px;
+  }
+
+  #hero-img img {
+    width: 377px;
+    height: 527px;
+  }
+
+  /* EXTRAS */
+
+  .extras p {
+    font-size: 18px;
+  }
+
+  .extras span {
+    margin: 0px 20px;
+  }
+
+  /* DIFERENCIAIS */
+
+  #diferenciais {
+    margin: 80px auto;
+  }
+
+  #diferenciais .cards-diferenciais>img {
+    width: 42px;
+    height: 42px;
+  }
+
+  #diferenciais .cards-diferenciais h3 {
+    font-size: 18px;
+  }
+
+  #diferenciais .cards-diferenciais p {
+    width: 220px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .svg-btn {
+    width: 150px;
+    height: 38px;
+    margin-left: -10px;
+  }
+
+  .btn-diferenciais a {
+    font-size: 12px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-85%, -50%);
+  }
+
+  .svg-icon {
+    width: 20px;
+    height: 18px;
+
+    transform: translate(90%, -50%);
+  }
+
+  /* CONTATO */
+
+  .contato-texto {
+    padding: 70px 0 0 40px;
+  }
+
+  .contato-texto h2 {
+    font-size: 62px;
+  }
+
+  .contato-texto p {
+    font-size: 18px;
+  }
+
+  .input-nome input,
+  .input-telefone input {
+    padding: 6px;
+  }
+
+  .input-nome input:focus+label,
+  .input-nome input:not(:placeholder-shown)+label {
+    top: -22px;
+    font-size: 14px;
+    padding: 4px 7px;
+  }
+
+  .input-telefone input:focus+label,
+  .input-telefone input:not(:placeholder-shown)+label {
+    top: -22px;
+    font-size: 14px;
+    padding: 4px 7px;
+  }
+
+  .contato .contato-img {
+    position: absolute;
+    top: -115px;
+    left: 57%;
+  }
+
+  .contato-img img {
+    width: 400px;
+    height: 580px;
+  }
+
 }
