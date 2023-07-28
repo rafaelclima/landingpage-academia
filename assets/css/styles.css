@@ -216,8 +216,8 @@
   /* Impede que os itens se estiquem */
   display: flex;
   align-items: center;
+  justify-content: space-between;
   /* Permite que o texto e a imagem fiquem lado a lado */
-  margin-right: 20px;
   /* Espaçamento entre os itens, ajuste conforme necessário */
 }
 
@@ -231,15 +231,15 @@
   }
 }
 
-.extras p {
+.extras .item p {
   font-size: 32px;
-  margin: 0px 10px;
+  margin: 0px 15px;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
-.extras span {
-  margin: 0px 10px;
+.extras .item span {
+  margin: 0px 15px;
   white-space: nowrap;
   flex-shrink: 0;
 }
