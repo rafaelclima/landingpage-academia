@@ -138,7 +138,7 @@
   height: 627px;
 }
 
-.extras {
+/* .extras {
   min-width: 100%;
   height: 56px;
   background-color: var(--secondary-text-color);
@@ -168,17 +168,78 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
+  overflow: hidden;
+}
+
+.scrolling-container {
+  display: inline-flex;
+  animation: scroll-right 20s linear infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+.extras-rolagem {
+  overflow: hidden;
+  background-color: var(--secondary-text-color);
+}
+
+.scroll-wrapper {
+  display: flex;
+  /* Permite que os elementos se ajustem dentro do wrapper */
+  animation: scroll-left 10s linear infinite;
+}
+
+.scrolling-container {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  color: var(--primary-text-color);
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.item {
+  flex: 0 0 auto;
+  /* Impede que os itens se estiquem */
+  display: flex;
+  align-items: center;
+  /* Permite que o texto e a imagem fiquem lado a lado */
+  margin-right: 20px;
+  /* Espaçamento entre os itens, ajuste conforme necessário */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-68%);
+  }
 }
 
 .extras p {
   font-size: 32px;
-  margin: 0;
+  margin: 0px 10px;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 .extras span {
-  margin: 0px 40px;
+  margin: 0px 10px;
   white-space: nowrap;
   flex-shrink: 0;
 }
